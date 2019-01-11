@@ -3,8 +3,13 @@
 using namespace std;
 
 int main(){
+    double x=2,y;
 
-    cout<<"Hello";
-    
+    while(x<70){
+       y+=1/x;
+       x=x+1;
+    }
+    cout<<y;
+
     return 0;
 } 
